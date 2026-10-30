@@ -1,2 +1,1 @@
-# Curso HTML e CSS - Modulo 1 de 5
-
+# Curso (HTML5+CSS3): Módulo 1 de 5
