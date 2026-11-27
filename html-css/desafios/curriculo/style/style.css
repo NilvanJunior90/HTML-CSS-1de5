@@ -130,6 +130,18 @@ main{
     border-bottom-right-radius: 10px;
 }
 
+main picture.perfil {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;        /* corta sem distorcer */
+    object-position: top;     /* mantém o rosto visível */
+    display: block;
+    margin: 50px auto;        /* centraliza */
+    border: 10px solid var(--cor3);
+    border-radius: 10px;       /* círculo; use 10px para cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 main a {
     color: var(--cor4);
     font-weight: bolder;
