@@ -130,6 +130,17 @@ main{
     border-bottom-right-radius: 10px;
 }
 
+main a {
+    color: var(--cor4);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
 main h1 {
     color: var(--cor4);
     font-family: var(--fonte-padrao);
